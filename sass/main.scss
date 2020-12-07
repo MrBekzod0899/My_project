@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    .container{
+        nav {
+            .row{
+                .col-md-4{
+                    ul{
+                        li{
+                            margin-right: 10px;
+                            padding-right: 5px;
+                           border-right: 1px solid #cccccc ; 
+                           font-size: 15px; 
+                           box-sizing: border-box;                      
+                        }
+                    }
+                }
+                .col-md-8{
+                      ul{
+                          li{
+                             margin-right: 10px;
+                             box-sizing: border-box;
+                             padding-right: 5px;
+                             border-bottom: none;
+                             
+
+                                a{
+                                    color:#636363 ;
+                                   
+                                }
+                               
+                          }
+                      }
+                    }
+             
+            }
+            hr{
+                margin:10px 0;
+           }
+           
+        }
+        header{
+            row{
+                .col-md:first-child{
+
+                }
+            }
+        }
+       
+    }
+}
